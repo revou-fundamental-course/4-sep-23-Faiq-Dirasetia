@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<title> The Box </title>
+<head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<style type="text/css">
+        @import url(css/style.css);
+    </style>
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+    </head>
+        <body>
+                <header>
+                    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+                    The Box Of Math
+                </header>
+                <div class='marquee'>
+                    <div class='track'>
+                         WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~
+                         WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~
+                         WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~ WELCOME TO THE BOX ~                        </div>
+                </div>
+                <h1> Welcome To The Box Of Math! </h1>
+                <p> We're thrilled to have you joining our math-loving community. Here, we make calculating the perimater of a square easy and accessible.
+                    Enjoy your learning experience, and if you have any questions or need assistance with calculating square perimeters or any other math topics, dont hesitate to reach out our team.
+                </p>
+                <h2> Square Area </h2>
+                <div class="tabelkotak">
+            <div class="kotak"> </div>
+            </div>
+            <div class="rumustabel">
+                Formula for the perimeter of a square :
+            </br>
+        </br>
+                <div class="rumus"> L = S x S </div>
+            </br>
+                <div>
+                    L = Luas
+            </br>
+                    S = Sisi
+                </div>
+            </div>
+                <h2> Calculate The Area Of Square </h2>
+                <form id = "hasil">
+                <p> Nilai sisi <input type="text" id="Sisi"></p>
+                <p id="result1"></p>
+                <p id="result2"></p>
+                <p id="result3"></p>
+                <br>
+                <p> <input type="button" value="Hitung" onclick="hitungLuasKeliling()"></p>
+                <br>
+                <p> <input type="button" id="tombolreset" value="Reset" onclick="reset()"></p>
+                </form>
+            </body>
